@@ -20,6 +20,11 @@
         "preship": "yarn test",
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; else echo \"Uncomitted changes found.\" && exit 1; fi",
         "postship": "git fetch && gulp release"
+    },    
+    "author": {
+        "name": "Maaike Brinkhof",
+        "email": "webmaster@obk-zeist.nl",
+        "url": "https://www.obk-zeist.nl"
     },
     "gpm": {
         "type": "theme",
