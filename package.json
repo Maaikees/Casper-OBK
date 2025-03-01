@@ -126,7 +126,7 @@
                     "Left aligned",
                     "Hidden"
                 ],
-                "default": "Center aligned",
+                "default": "Left aligned",
                 "group": "homepage"
             },
             "feed_layout": {
