@@ -23,6 +23,14 @@ production stylesheet in assets/built/screen.css
 
 */
 
+
+
+/* Overrides voor OBK Zeist */
+
+.kg-bookmark-publisher {
+  display: none;
+}
+
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
 
